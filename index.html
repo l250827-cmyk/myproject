@@ -10,50 +10,51 @@
   <h1>Continental Hotel Reservation Form</h1>
   <table border="3">
     <tr>
-        <td><label>Name</label></td>
-        <td><input type="text"></td>
+        <td id="b"><label>Name</label></td>
+        <td id="a"><input type="text"></td>
     </tr>
     <tr>
-        <td><label>eMail</label></td>
-        <td><input type="email"></td>
+        <td id="b"><label>eMail</label></td>
+        <td id="a"><input type="email"></td>
     </tr>
     <tr>
-        <td><label>Mobile No</label></td>
-        <td><input type="number"></td>
+        <td id="b"><label>Mobile No</label></td>
+        <td id="a"><input type="number"></td>
     </tr>
     <tr>
-        <td><label>Arrival Time</label></td>
-        <td><input type="time"></td>
+        <td id="b"><label>Arrival Time</label></td>
+        <td id="a"><input type="time"></td>
     </tr>
     <tr>
-        <td><label>Departure</label></td>
-        <td>
+        <td id="b"><label>Departure</label></td>
+        <td id="a">
             <input type="date">
             <input type="date" name="" id="">
         </td>
     </tr>
     <tr>
-        <td><label>Room Type</label></td>
-        <td>
+        <td id="b"><label>Room Type</label></td>
+        <td id="a">
             <input type="radio" name="room">Single
             <input type="radio" name="room">Double
             <input type="radio" name="room">Presidential Suite
         </td>
     </tr>
     <tr>
-        <td><label>Preferences</label></td>
-        <td><input type="checkbox">Non-Smoking</td>
-        <td><input type="checkbox">Internet</td>
-        <td><input type="checkbox">Firm Matterss</td>
+        <td id="b"><label>Preferences</label></td>
+        <td id="a">
+            <input type="checkbox">Non-Smoking
+            <input type="checkbox">Internet
+            <input type="checkbox">Firm Matterss
+        </td>
     </tr>
     <tr>
-        <td><label>Mode of Payment</label></td>
-        <td><input type="checkbox" name="mode">Cash</td>
-        <td><input type="checkbox" name="mode">Check</td>
-        <td><input type="checkbox" name="mode">Credit Card</td>
-        <td>
-            <label name="chcard">Choose Card</label>
-            <select id="card" name="card"></select>
+        <td id="b"><label>Mode of Payment</label></td>
+        <td id="a">
+            <input type="checkbox" name="mode">Cash
+            <input type="checkbox" name="mode">Check
+            <input type="checkbox" name="mode">Credit Card
+            <select id="card" name="card" aria-placeholder="Choose Card"></select>
         </td>
     </tr>
   </table>
