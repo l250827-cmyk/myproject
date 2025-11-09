@@ -5,7 +5,7 @@ body {
   }
   
   h1 {
-    color: #2c3e50;
+    color: red;
   }
   
   p {
@@ -13,9 +13,10 @@ body {
   }
 
   table {
-    margin-left: 100px;
-    margin-top: 100px;
-    background-color: lightblue;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    background-color: rgb(200, 225, 255);
   }
 
   tr {
@@ -23,10 +24,21 @@ body {
   }
 
   td#a {
-    width: 300px;
+    width: 400px;
+    text-align: left;
   }
 
   td#b {
-    width: 200px;
+    width: 300px;
+    text-align: right;
+    font-weight: bold;
   }
-
+  
+  tr#dep {
+      height: 70px;
+  }
+  
+  div#t {
+      background-color: rgb(220, 220, 220);
+      padding-bottom: 10px;
+  }
