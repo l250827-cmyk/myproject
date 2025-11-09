@@ -159,8 +159,8 @@ body {
   }
   
   #cup {
-      width: 150px;
-      height: 140px;
+      width: 130px;
+      height: 120px;
       position: relative;
       float: right;
       top: -110px;
@@ -168,8 +168,8 @@ body {
   }
   
   #spa {
-      width: 150px;
-      height: 140px;
+      width: 130px;
+      height: 120px;
       position: relative;
       float: right;
       top: -110px;
@@ -181,4 +181,5 @@ body {
       width: 1000px;
       height: 1000px;
   }
+
 
