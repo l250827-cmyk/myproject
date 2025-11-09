@@ -1,11 +1,11 @@
 body {
     background-color: #f2f2f2;
-    text-align: center;
     font-family: Arial, sans-serif;
   }
   
-  h1 {
+  h1#hos {
     color: red;
+    margin-left: 30px;
   }
   
   p {
@@ -41,4 +41,143 @@ body {
   div#t {
       background-color: rgb(220, 220, 220);
       padding-bottom: 10px;
+  }
+  
+  div#h {
+      background-color: rgb(165, 240, 235);
+      text-align: right;
+      color: rgb(95, 175, 175);
+  }
+  div#f {
+      background-color: rgb(60, 220, 205);
+      width: 220px;
+      height: 160px;
+      border: 7px;
+      border-style: solid;
+      border-color: rgb(35, 115, 120);
+      position: relative;
+  }
+  div#s {
+      background-color: rgb(230, 250, 250);
+      width: 750px;
+      height: 250px;
+      position: relative;
+      top: -190px;
+      left: 250px;
+  }
+  div#c {
+      background-color: rgb(230, 250, 250);
+      width: 750px;
+      height: 280px;
+      position: relative;
+      top: -190px;
+      left: 250px;
+  }
+  p#vp {
+      color: rgb(95, 175, 175);
+      margin-right: 10px;
+      margin-bottom: 30px;
+  }
+  #v {
+      margin-right: 10px;
+  }
+  h1#fr {
+      color: rgb(20, 175, 165);
+      margin-left: 20px;
+  }
+  
+  #red {
+      color: rgb(220, 150, 150);
+  }
+  
+  #w {
+      color: white;
+  }
+  
+  #sb {
+      color: rgb(220, 150, 150);
+      position: relative;
+      top: -120px;
+      margin-left: 15px;
+      font-size: 19px;
+  }
+  
+  #cb {
+      color: rgb(220, 150, 150);
+      position: relative;
+      top: -120px;
+      margin-left: 15px;
+      font-size: 19px;
+  }
+  
+  #d1 {
+      color: rgb(95, 175, 175);
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 15px;
+      top: 5px;
+      border-bottom: 5px;
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      width: 150px;
+      border-style: dotted;
+      position: relative;
+  }
+  
+  #sp {
+      color: rgb(95, 175, 175);
+      font-size: 30px;
+      font-weight: bold;
+      position: relative;
+      top: -70px;
+      left: 180px;
+  }
+  
+  #d2 {
+      color: rgb(95, 175, 175);
+      font-size: 30px;
+      font-weight: bold;
+      margin-left: 15px;
+      top: 5px;
+      border-bottom: 5px;
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      width: 150px;
+      border-style: dotted;
+      position: relative;
+  }
+  
+  #cp {
+      color: rgb(95, 175, 175);
+      font-size: 30px;
+      font-weight: bold;
+      position: relative;
+      top: -70px;
+      left: 180px;
+  }
+  
+  #cup {
+      width: 150px;
+      height: 140px;
+      position: relative;
+      float: right;
+      top: -110px;
+      right: 10px;
+  }
+  
+  #spa {
+      width: 150px;
+      height: 140px;
+      position: relative;
+      float: right;
+      top: -110px;
+      right: 10px;
+  }
+  
+  div#2 {
+      background-color: white;
+      width: 1000px;
+      height: 1000px;
   }
