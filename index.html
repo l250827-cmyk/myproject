@@ -7,52 +7,53 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="t">
   <h1>Continental Hotel Reservation Form</h1>
   <table border="3">
     <tr>
         <td id="b"><label>Name</label></td>
-        <td id="a"><input type="text"></td>
+        <td id="a"><input type="text" placeholder="Enter your name"></td>
     </tr>
     <tr>
         <td id="b"><label>eMail</label></td>
-        <td id="a"><input type="email"></td>
+        <td id="a"><input type="email" placeholder="info@continental.pk"></td>
     </tr>
     <tr>
         <td id="b"><label>Mobile No</label></td>
-        <td id="a"><input type="number"></td>
+        <td id="a"><input type="number" placeholder="Enter your cell number"></td>
     </tr>
     <tr>
         <td id="b"><label>Arrival Time</label></td>
-        <td id="a"><input type="time"></td>
+        <td id="a"><input type="text" placeholder="Enter your arrival time"></td>
     </tr>
-    <tr>
+    <tr id="dep">
         <td id="b"><label>Departure</label></td>
         <td id="a">
-            <input type="date">
-            <input type="date" name="" id="">
+            <input type="input">
+            <input type="input" name="" id="">
         </td>
     </tr>
     <tr>
         <td id="b"><label>Room Type</label></td>
         <td id="a">
             <input type="radio" name="room">Single
-            <input type="radio" name="room">Double
+            <input type="radio" name="room">Double <br>
             <input type="radio" name="room">Presidential Suite
         </td>
     </tr>
     <tr>
         <td id="b"><label>Preferences</label></td>
         <td id="a">
-            <input type="checkbox">Non-Smoking
-            <input type="checkbox">Internet
-            <input type="checkbox">Firm Matterss
+            <input type="checkbox" id="pref">Non-Smoking <br>
+            <input type="checkbox" id="pref">Internet <br>
+            <input type="checkbox" id="pref">Firm Matterss <br>
         </td>
     </tr>
     <tr>
         <td id="b"><label>Mode of Payment</label></td>
         <td id="a">
             <input type="checkbox" name="mode">Cash
-            <input type="checkbox" name="mode">Check
+            <input type="checkbox" name="mode">Check <br>
             <input type="checkbox" name="mode">Credit Card
             <select id="card" name="card">
               <option value="" disabled selected>Choose Card</option>
@@ -60,7 +61,11 @@
             </select>
         </td>
     </tr>
+    <tr >
+        <td colspan="2"><button type="submit">Send Data</td>
+    </tr>
   </table>
+  <p></p>
+  </div>
 </body>
 </html>
-
