@@ -47,7 +47,7 @@ body {
       background-color: rgb(165, 240, 235);
       text-align: right;
       color: rgb(95, 175, 175);
-      width: 800px;
+      width: 1000px;
   }
   div#f {
       background-color: rgb(60, 220, 205);
@@ -179,9 +179,10 @@ body {
   
   div#2 {
       background-color: white;
-      width: 1000px;
+      width: 2000px;
       height: 1000px;
   }
+
 
 
 
